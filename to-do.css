@@ -1,0 +1,9 @@
+.todo{
+    border: solid 4px purple;height: 500px;
+    width: 50%;
+    padding-left: 100px;
+}
+#body{
+padding-left: 30%;
+    margin-top: 10%;
+}

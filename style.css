@@ -1,0 +1,122 @@
+.login{
+     border: solid 4px purple; 
+    padding: 24px;
+    width: 50%;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    padding-left: 10%;
+    color: #3c093c;
+}
+.loginpage{
+    padding-left: 600px;
+}
+.input{
+    padding: 12px 14px;
+    width: 300px;
+    border: solid 1px;
+   
+
+}
+#headingtxt{
+    text-align: center;
+    color: purple;
+}
+
+button{
+    padding: 14px 12 px;
+    border: solid 1px;
+    border-radius: 22px;
+    background: purple;
+    width: 200px;
+    padding: 14px;
+    color: white;
+}
+    
+    
+        
+        
+    
+    .inputfield{
+    
+        border: none;
+        display:grid;
+        padding: 5px;
+        
+
+    }
+    
+
+    .button{
+        color:white;
+        background-color: purple;
+        border: none;
+        padding: 12px 22px;
+        width: 60%;
+    
+    }
+    
+    
+
+    
+
+
+    
+    @media only screen and (min-width: 270px) and (max-width: 600px){
+        .login{
+            border: none;
+            width: 25%;
+            margin-top: 0;
+            padding-left: 0;
+            color: #3c093c;
+        }
+        .loginpage{
+            padding-left: 0px;
+        }
+        .input{
+            padding: 12px 14px;
+            width: 300px;
+           
+           
+        
+        }
+        }
+        
+        @media only screen and (min-width: 600px) and (max-width: 800px){
+           
+            .login{
+                border:  solid 4px purple;
+                width: 50%;
+                margin-top: 0;
+                padding-left: 0;
+                color: #3c093c;
+            }
+            .loginpage{
+                padding-left: 0px;
+            }
+            .input{
+                padding: 25px 20px;
+                width: 300px;
+               
+        }
+    }
+        @media only screen and (min-width: 800px) and (max-width: 1024px){
+            .login{
+                border: solid 4px purple; 
+                width: 50%;
+                margin-top: 0;
+                padding-left: 0;
+                color: #3c093c;
+            }
+            .loginpage{
+                padding-left: 0px;
+            }
+            .input{
+                padding: 25px 20px;
+                width: 300px;      
+        }
+        .inputfield{
+    
+            border: none;
+            padding: 5px;
+        }
+    }

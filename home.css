@@ -1,0 +1,59 @@
+body{
+    margin-left: 5%;
+    background-color: beige;
+}
+
+nav{
+    flex: 1;
+    text-align: center;
+    display: flex;
+    gap: 400px;
+}
+ nav ul{
+   display: inline-block;
+   list-style-type: none;
+
+}
+ nav ul li{
+    display: inline-block;
+    margin-right: 20px;}
+    a{
+        text-decoration: none;
+        color: #0b0202;
+    }
+
+#logo{
+    width: 100px;
+}
+.navbar{
+display: flex;
+gap: 200px;
+
+}
+.nav{
+    gap: 400px ;
+}
+#paragraph{
+    margin-top: 8%;
+    font-size: 40px;
+}
+#landingpage{
+    display: flex;
+    justify-content: space-between;
+    color: purple;
+    
+}
+#landingpage{
+    padding-right: 120px;
+    margin-top: 60px;
+    
+}
+
+@media only screen and (min-width: 270px) and (max-width: 600px){
+    #landingpage{
+        padding-right: 0px;
+        margin-top:10px;
+        width: 50px;
+        
+    }  
+}
