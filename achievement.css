@@ -3,10 +3,52 @@
     width: 50%;
     padding-left: 100px;
     color: rgb(9, 2, 13);
-    background-color: rgb(240, 232, 233);
+    background: pink;
+    
+    
 }
+nav{
+    flex: 1;
+    text-align: center;
+    display: flex;
+    gap: 600px;
+}
+ nav ul{
+   display: inline-block;
+   list-style-type: none;
+
+}
+body{
+    background-color: lavender;
+}
+ nav ul li{
+    display: inline-block;
+    margin-right: 20px;}
+    a{
+        text-decoration: none;
+        color: #0b0202;
+    }
+
+
 #body{
     padding-left: 30%;
     margin-top: 10%;
     
+}
+@media only screen and (min-width: 800px) and (max-width: 1024px){
+   
+    #body{
+        padding-left: none;
+        margin-top: 0%;
+
+    }
+    .achievement{
+        margin-top: none;
+        padding-left:none;
+      border: none;
+      width: 400px;
+    }
+    #paragraph{
+     font-size: 10px;
+    }
 }

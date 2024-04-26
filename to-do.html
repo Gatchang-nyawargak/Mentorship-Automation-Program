@@ -7,23 +7,55 @@
     <link rel="stylesheet" href="to-do.css">
 </head>
 <body id="body">
-
-   <div class="todo">
-        <h2>My To Do List</h2>
-        <input type="text" id="myInput" placeholder="Title...">
-        <span onclick="newElement()" class="addBtn">Add</span>
-      
-      <ul id="mylist">
-        <li>Do python Assignment</li>
-        <li class="checked">Study Javascript</li>
-        <a href="https://docs.google.com/document/d/1v-U0Tz7CIc3ZOD7Bdsx-fKH2T-PkgYzjWG_HPRxg22A/edit"><li>Summary of Born A crime</li></a>
-        <li>Study Max-heap</li>
-        <li>Read a book</li>
-        <li>Design my website</li>
-      </ul>
-      <a href="/home.html">Home</a>
+    <div>
+        <nav class="nav" >
+             <ul >
+            <li ><a href="/mentor.html">Mentor's Profile</a></li>
+            <li><a href="/goals.html">Goal setting</a></li>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/achievement.html">Achievements</a></li>
+            
+            </ul>
+        </nav>
     </div>
-</div>
+    <div class="todo_list_container">
+      <div class="todo_list">
+      
+          <h2>Todo_list </h2>
+          <div class="todo_list_add_row">
+              <input type="text" id="todo_input_field" placeholder="Add your task....">
+              <button onclick="addTask()">Add</button>
+          </div>
+          <ul id="task_container">
+           
+            <a>
+        <a href="nyj.html"><li>Summary of Born A Crime</li></a>
+               
+        <input type="checkbox" placeholder="" required class="input"/>
+        <br>
+        <input type="checkbox" placeholder="" required class="input"/>
+        <br>
+        <input type="checkbox" placeholder="" required class="input"/>
+        <br>
+              <li><Div> Do Research</Div></li>
+              <input type="checkbox" placeholder="" required class="input"/>
+        <br>
+        <input type="checkbox" placeholder="" required class="input"/>
+        <br>
+        <input type="checkbox" placeholder="" required class="input"/>
+        <br>
+              <li>Study Python </li>
+              <input type="checkbox" placeholder="" required class="input"/>
+        <br>
+        <input type="checkbox" placeholder="" required class="input"/>
+        <br>
+        <input type="checkbox" placeholder="" required class="input"/>
+        <br>
+          </ul>
+      </div>
+  </div>
+  <script src="script.js"></script>
+
 </body>
 
 </html>

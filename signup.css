@@ -1,3 +1,6 @@
+body{
+    background-color: lavender;
+}
 .input{
         padding: 12px 14px;
         width: 300px;
@@ -6,6 +9,8 @@
     }
     #headertext{
         color: purple;
+        justify-items: center;
+        padding-left: 500px;
     }
     .signup{
         padding-left: 500px;
@@ -14,9 +19,72 @@
         border: solid 4px purple;
         padding: 24px;
         width: 50%;
-        margin-top: 40px;
+        margin-top: 60px;
         padding-left: 10%;
         color: #3c093c;
+        background-color: pink;
+    }
+    .inputfield{
+    
+        border: none;
+        display:grid;
+        padding: 10px 12px;
+    
+        }
+        nav{
+            flex: 1;
+            text-align: center;
+            display: flex;
+            gap: 600px;
+        }
+         nav ul{
+           display: inline-block;
+           list-style-type: none;
+        
+        }
+         nav ul li{
+            display: inline-block;
+            margin-right: 20px;}
+            a{
+                text-decoration: none;
+                color: #0b0202;
+            }
+    .button{
+            padding: 14px 12 px;
+            border: solid 1px;
+            border-radius: 22px;
+            background: purple;
+            width: 200px;
+            padding: 14px;
+            color: white;
+    
+    }
+    
+    
+    
+@media only screen and (min-width: 270px) and (max-width: 600px){
+    .input{
+        padding: 12px 14px;
+        width: 300px;
+        border: solid 1px;
+
+    }
+    #headertext{
+        color: purple;
+        justify-items: center;
+        padding-left: 500px;
+    }
+    .signup{
+        padding-left: 500px;
+    }
+    #signup{
+        border:none;
+        padding: 24px;
+        width: 0%;
+        margin-top: 60px;
+        padding-left: 0%;
+        color: #3c093c;
+        background-color: pink;
     }
     .inputfield{
     
@@ -26,53 +94,21 @@
     
         }
     .button{
-        color:white;
-        background-color: purple;
-        border: none;
-        padding:5px 10px;
-        width: 200px;
+            padding: 14px 12 px;
+            border: solid 1px;
+            border-radius: 22px;
+            background: purple;
+            width: 200px;
+            padding: 14px;
+            color: white;
     
     }
     
-    
-    
-@media only screen and (min-width: 270px) and (max-width: 600px){
-.input{
-    padding: 6px,7px;
-    width: 150px;
-    border: solid 1px;
-}
-.signup{
-    padding-left: 0;
-}
-#signup{
-    border: none;
-    padding: 12px;
-    width: 25%;
-    margin-top: 0;
-    padding-left: 10%;
-    color: #3c093c
-}
 }
 
 @media only screen and (min-width: 600px) and (max-width: 800px){
-    .input{
-        padding: 12px,14px;
-        width: 300px;
-        border: solid 1px;
-    }
-    .signup{
-        padding-left: 0;
-    }
-    #signup{
-        border: solid 4px purple;;
-        padding: 12px;
-        width: 50%;
-        margin-top: 40px;
-        padding-left: 10%;
-        color: #3c093c
-    }
-    }
+    
+}
 
 @media only screen and (min-width: 800px) and (max-width: 1024px){
     .input{
