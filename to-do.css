@@ -1,22 +1,21 @@
 *{
-    margin: 0;
+    margin-top: 3px;
     padding: 0;
     box-sizing: border-box;
+    color: #EDEEF0;
 }
 .todo_list_container{
     width: 100%;
-    min-height: 100vh;
-    background: linear-gradient(to top, #C471F5 0%,white 100%);
-    padding: 10px;
-    box-shadow:10px 10px 14px rgba(33,33,33,.7) ;
+   padding-left: 250px;
+    margin-top: 100px;
 }
 .todo_list{
-    width: 100%;
+    width: 90%;
     max-width:540px;
     background: purple;
-    margin: 100px auto 20px;
-    padding: 40px 30px 70px;
+    padding-left: 100px;
     border-radius: 10px;
+    margin-bottom: 80px;
 }
 .todo_list h2{
     color: white;
@@ -55,59 +54,48 @@ button{
     border-radius: 40px;
     cursor: pointer;
 }
-nav{
-    flex: 1;
-    text-align: center;
-    display: flex;
-    gap: 600px;
-}
- nav ul{
-   display: inline-block;
-   list-style-type: none;
-
-}
- nav ul li{
+nav ul li{
     display: inline-block;
     margin-right: 20px;}
     a{
         text-decoration: none;
         color: #0b0202;
     }
-
-ul li{
-    list-style: none;
-    font-size: 17px;
-    padding:12px 8px 12px 50px;
-    user-select: none;
-    cursor: pointer;
-    position: relative;
+    nav a{
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        background-color:rgb(197,224,239);
+    }
+    nav a:hover{
+        background-color: rgb(241,255,198);
+    
+    }
+    .navbar{
+        margin-bottom: 60px;
+    }
+#logo{
+    width: 100px;
 }
-ul li::before{
-    content: '';
-    position: absolute;
-    height: 28px;
-    width: 28px;
-    background-image: url();
-    background-size: cover;
-    background-position: center;
-    top: 12px;
-    left: 8px;
+.navbar{
+    display: flex;
+    margin-top: 10px;
+    gap: 200px;
 }
-ul li.checked{
-    color: grey;
-    text-decoration: line-through;
-}
-ul li.checked::before{
-    background-image: url(Images/checked.png);
-}
-ul li span{
-    position: absolute;
-    right: 0;
-    top: 5px;
-    width: 40px;
-    height: 40px;
-    font-size: 25px;
-    color:gray;
-    line-height: 40px;
-    text-align: centre;
-}
+    body{
+        background-color: lavender;
+       
+    }
+    .foot{
+        display: flex;
+        gap: 30%;
+        background-color:black;
+        color: white;
+        margin-top: 7%;
+        height: 169px;
+        padding: 0 14%;
+    
+    }
+    

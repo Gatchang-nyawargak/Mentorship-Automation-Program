@@ -1,7 +1,4 @@
 .achievement{
-    border: solid 4px purple;height: 500px;
-    width: 50%;
-    padding-left: 100px;
     color: rgb(9, 2, 13);
     background: pink;
     
@@ -20,6 +17,7 @@ nav{
 }
 body{
     background-color: lavender;
+   height: 40px;
 }
  nav ul li{
     display: inline-block;
@@ -28,19 +26,54 @@ body{
         text-decoration: none;
         color: #0b0202;
     }
-
-
+    nav a{
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        background-color:rgb(197,224,239);
+    }
+    nav a:hover{
+        background-color: rgb(241,255,198);
+    
+    }
+    
 #body{
-    padding-left: 30%;
-    margin-top: 10%;
+    margin-bottom: none;
     
 }
+#logo{
+    width: 100px;
+}
+.navbar{
+    display: flex;
+    margin-top: 10px;
+    gap: 200px;
+}
+.foot{
+    display: flex;
+    gap: 30%;
+    background-color:black;
+    color: white;
+    padding: 0 14%;
+    margin-top: 1%;
+    height: 170px;
+
+
+}
+
+    
+    
 @media only screen and (min-width: 800px) and (max-width: 1024px){
    
     #body{
         padding-left: none;
         margin-top: 0%;
 
+    }
+    .navbar{
+        flex-direction: column;
     }
     .achievement{
         margin-top: none;

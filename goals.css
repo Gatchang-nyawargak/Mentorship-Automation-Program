@@ -1,22 +1,20 @@
 .goals{
-    border: solid 4px purple;height: 300px;
-    width: 50%;
-    height: 60%;
-    padding-left: 100px;
+    
+    /* padding-left: 100px; */
     color: rgb(9, 2, 13);
     background-color:pink;
 }
 #body{
-    padding-left: 30%;
-    margin-top: 10%;
     background: lavender;
-    height: 100%;
+
+    
 }
+
 nav{
     flex: 1;
     text-align: center;
     display: flex;
-    gap: 600px;
+    gap: 800px;
 }
  nav ul{
    display: inline-block;
@@ -30,3 +28,45 @@ nav{
         text-decoration: none;
         color: #0b0202;
     }
+
+#logo{
+    width: 100px;
+}
+nav a{
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color:rgb(197,224,239);
+}
+nav a:hover{
+    background-color: rgb(241,255,198);
+}
+
+.navbar{
+    display: flex;
+    gap: 300px;
+}
+        #logo{
+            width: 100px;
+        }
+        .navbar{
+            display: flex;
+            margin-top: 10px;
+            gap: 200px;
+        
+     }
+            .foot{
+                display: flex;
+                gap: 30%;
+                background-color:black;
+                color: white;
+                margin-top:85px ;
+                height: 168px;
+              
+               
+            
+            }
+            
+    

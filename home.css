@@ -21,6 +21,18 @@ nav{
         text-decoration: none;
         color: #0b0202;
     }
+    nav a{
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        background-color:rgb(197,224,239);
+    }
+    nav a:hover{
+        background-color: rgb(241,255,198);
+    
+    }
 
 #logo{
     width: 100px;
@@ -46,11 +58,22 @@ gap: 200px;
 
 
 .landingpage{
-    width: 300px;
+    width: 400px;
     padding-right: 120px;
     margin-top: 60px;
+    object-fit: cover;
     
 }
+#logo{
+    width: 100px;
+}
+.navbar{
+    display: flex;
+    gap: 200px;
+
+
+    
+    }
 
 @media only screen and (min-width: 270px) and (max-width: 780px){
     #image{

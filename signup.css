@@ -1,5 +1,6 @@
-body{
+.body{
     background-color: lavender;
+    padding-left: 5%;
 }
 .input{
         padding: 12px 14px;
@@ -9,21 +10,20 @@ body{
     }
     #headertext{
         color: purple;
-        justify-items: center;
-        padding-left: 500px;
+        padding-left: 300px;
     }
     .signup{
-        padding-left: 500px;
+        padding-left: 300px;
+    
     }
     #signup{
         border: solid 4px purple;
         padding: 24px;
-        width: 50%;
-        margin-top: 60px;
-        padding-left: 10%;
+        width: 40%;
+    
         color: #3c093c;
-        background-color: pink;
     }
+
     .inputfield{
     
         border: none;
@@ -60,31 +60,27 @@ body{
     
     }
     
-    
-    
+
+
 @media only screen and (min-width: 270px) and (max-width: 600px){
+    #signup{
+        border: none;
+        width: 25%;
+        margin-top: 0;
+        padding-left: 0;
+        color: #3c093c;
+    }
+    .loginpage{
+        padding-left: 0px;
+    }
     .input{
         padding: 12px 14px;
-        width: 300px;
-        border: solid 1px;
-
-    }
-    #headertext{
-        color: purple;
-        justify-items: center;
-        padding-left: 500px;
-    }
-    .signup{
-        padding-left: 500px;
-    }
-    #signup{
-        border:none;
-        padding: 24px;
-        width: 0%;
-        margin-top: 60px;
-        padding-left: 0%;
-        color: #3c093c;
-        background-color: pink;
+        width: 200px;
+       
+     }
+     .signup{
+        padding-left: 8px;
+    
     }
     .inputfield{
     
@@ -93,38 +89,49 @@ body{
         padding: 10px 12px;
     
         }
-    .button{
-            padding: 14px 12 px;
-            border: solid 1px;
-            border-radius: 22px;
-            background: purple;
-            width: 200px;
-            padding: 14px;
-            color: white;
-    
-    }
-    
-}
-
-@media only screen and (min-width: 600px) and (max-width: 800px){
-    
+        #headertext{
+            color: purple;
+            padding-left: 10px;
+        }
+        .body{
+            background-color: none;
+            padding-left: 5%;
+        }
 }
 
 @media only screen and (min-width: 800px) and (max-width: 1024px){
-    .input{
-        padding: 12px,14px;
-        width: 300px;
-        border: solid 1px;
-    }
-    .signup{
-        padding-left: 0;
-    }
     #signup{
-        border: solid 4px purple;;
-        padding: 12px;
-        width: 50%;
-        margin-top: 40px;
-        padding-left: 10%;
-        color: #3c093c
+        border: none;
+        width: 40%;
+        margin-top: 0;
+        padding-left: 0;
+        color: #3c093c;
     }
+    .loginpage{
+        padding-left: 0px;
+    }
+    .input{
+        padding: 12px 14px;
+        width: 200px;
+       
+     }
+     .signup{
+        padding-left: 8px;
+    
+    }
+    .inputfield{
+    
+        border: none;
+        display:grid;
+        padding: 10px 12px;
+    
+        }
+        #headertext{
+            color: purple;
+            padding-left: 10px;
+        }
+        .body{
+            background-color: none;
+            padding-left: 5%;
+        }
 }
