@@ -107,6 +107,10 @@ nav ul li{
       margin-bottom: 30%;
       
     }
+    #words{
+        margin-top: 6%;
+    }
     .btn{
         padding: 12px 22px;
+        margin-bottom: 10%;
     }
