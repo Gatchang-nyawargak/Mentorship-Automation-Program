@@ -58,7 +58,8 @@ body{
     color: white;
     padding: 0 14%;
     margin-top: 1%;
-    height: 170px;
+    height: 187px;
+    object-fit: cover;
 
 
 }
