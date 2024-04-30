@@ -98,4 +98,15 @@ nav ul li{
         padding: 0 14%;
     
     }
-    
+    .click{
+        display: flex;
+        gap: 50px;
+
+    }
+    #view{
+      margin-bottom: 30%;
+      
+    }
+    .btn{
+        padding: 12px 22px;
+    }
